@@ -68,7 +68,6 @@ function updateNote(req, res) {
         try {
             noteData.map((data, index) => {
                 if(data.id == id) {
-                    console.log("masuk sini")
                     noteData[index] = {
                         id : noteData[index]?.id,
                         title: title,
