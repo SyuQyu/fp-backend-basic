@@ -1,5 +1,5 @@
-const exampleController = require('./exampleController');
+const notesController = require('./noteControllers');
 
 module.exports = {
-    ...exampleController
+    ...notesController
 }

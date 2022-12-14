@@ -1,14 +1,12 @@
 const express = require('express');
 
-const exampleRoutes = require('./exampleRoutes')
+const noteRoutes = require('./noteRoutes')
 
 
 
 const router = express.Router();
 
-/**
- * Example Route
- */
-router.use('/example', exampleRoutes);
+
+router.use('/notes', noteRoutes);
 
 module.exports = router;
